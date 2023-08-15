@@ -1,2 +1,2 @@
-# JenkinsFile
+# JenkinsFiles
 Example pipeline Jenkinsfile
