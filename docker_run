@@ -22,7 +22,7 @@ pipeline {
                     } finally {
                         sh "sleep 20"
                         sh "docker stop ${container.id}"
-                       
+                        sh "docker rm ${container.id}"
                     }
                 }
             }
